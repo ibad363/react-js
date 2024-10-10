@@ -32,9 +32,9 @@ function App() {
         <StateFunction1/>
         <StateFunction2/>
         <Counter/>
+        <TodoList/>
       </section> */}
       <div>
-        <TodoList/>
       </div>
     </>
   );
