@@ -10,6 +10,10 @@ import Increment from './components/Increment'
 import Decrement from './components/Decrement'
 import UserList from './components/UserList'
 import ProductList from './components/ProductList'
+import StateFunction1 from './components/StateFunction1'
+import StateFunction2 from './components/StateFunction2'
+import Counter from "./components/Counter"
+import TodoList from './components/TodoList'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -25,9 +29,12 @@ function App() {
         <Decrement count={count} decrement={()=> setCount(prev=> prev-1)}/>
         <UserList/>
         <ProductList/>
+        <StateFunction1/>
+        <StateFunction2/>
+        <Counter/>
       </section> */}
       <div>
-        
+        <TodoList/>
       </div>
     </>
   );
