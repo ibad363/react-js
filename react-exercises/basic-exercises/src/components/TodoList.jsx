@@ -16,14 +16,21 @@ function TodoList() {
 
   return (
     <div>
-            <input type="text" placeholder='add todos' value={inputValue} onChange={handleChange}/>
-            <button onClick={handleClick}>Add Todo</button>
-        <h3>Todo List</h3>
-        {todos.map((todo,index) => (
-            <li key={index}>{todo}</li>
-        ))}
+      <form>
+        <input
+          type="text"
+          placeholder="add todos"
+          value={inputValue}
+          onChange={handleChange}
+        />
+        <button onClick={handleClick}>Add Todo</button>
+      </form>
+      <h3>Todo List</h3>
+      {todos.map((todo, index) => (
+        <li key={index}>{todo}</li>
+      ))}
     </div>
-  )
+  );
 }
 
 export default TodoList

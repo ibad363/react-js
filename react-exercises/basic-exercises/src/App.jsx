@@ -14,6 +14,7 @@ import StateFunction1 from './components/StateFunction1'
 import StateFunction2 from './components/StateFunction2'
 import Counter from "./components/Counter"
 import TodoList from './components/TodoList'
+import Profile from './components/Profile'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -33,7 +34,8 @@ function App() {
         <StateFunction2/>
         <Counter/>
         <TodoList/>
-      </section> */}
+        <Profile/>
+        </section> */}
       <div>
       </div>
     </>
