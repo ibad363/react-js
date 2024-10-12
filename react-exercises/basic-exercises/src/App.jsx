@@ -14,7 +14,9 @@ import StateFunction1 from './components/StateFunction1'
 import StateFunction2 from './components/StateFunction2'
 import Counter from "./components/Counter"
 import TodoList from './components/TodoList'
-import Profile from './components/Profile'
+import Profile2 from './components/Profile2'
+import Profile from './components/Profile2'
+import ShoppingList from './components/ShoppingList'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -35,8 +37,10 @@ function App() {
         <Counter/>
         <TodoList/>
         <Profile/>
+        <Profile2/>
         </section> */}
       <div>
+        <ShoppingList/>
       </div>
     </>
   );
